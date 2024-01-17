@@ -21,12 +21,31 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  justify-content: center;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 1.2em;
   line-height: 1.1;
+}
+.app--container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around ;
+  align-items:center ;
+  border: .125rem solid blue;
+  height: 800px;
+  width: 360px;
+}
+
+.about--container{
+  width: 90%;
+  border: .125rem solid red ;
+}
+.about--title{
+  font-size: 18px;
+  text-align: left;
 }
