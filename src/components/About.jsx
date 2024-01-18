@@ -2,11 +2,11 @@
 export default function About(){
     return (
         <div className="about--container">
-            <span className="about--title">
+            <h2 className="about--title">
                 About Me
-            </span>
+            </h2>
             <p className="about--description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae a sunt corporis suscipit in nesciunt tempora nulla, quas ea molestias!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ad. Rerum officia enim, voluptas sed autem et, dolorum quisquam facere officiis error, alias praesentium. Beatae nisi necessitatibus dicta unde ipsum?
             </p>
         </div>
     )
