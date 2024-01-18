@@ -24,7 +24,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #b8b8b8;
+  background-color: #d5f7ff;
 
 }
 
@@ -43,17 +43,25 @@ h1 {
   width: 360px;
   
   background-color: #f0f0f0;
-  
+  background-image: url("./assets/background.png");
   border-radius: 20px;
+  box-shadow: 0px 12px 19px -4px rgba(181,181,181,0.7);
   overflow:hidden;
 
 }
 .main--name{
-  margin-bottom: 40px;
+  margin-bottom: 35px;
+  color: rgb(58, 58, 58);
+  font-size: 32px;
 }
+
 .main--company, .main--profession {
   margin: 0;
   font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+.main--profession{
+  font-size: 22px;
 }
 .main--company{
   font-size: 12px;
@@ -74,7 +82,7 @@ h1 {
   font-size: 24px;
   font-weight: 700;
   padding-left: 30px;
-  color: rgb(120, 227, 189);
+  color: rgba(0, 80, 102, 0.667);
 }
 .about--title{
   font-size: 18px;
@@ -91,4 +99,10 @@ h1 {
   width: 100%;
   height: 280px;
   background-color: white;
+}
+.contact--list--container{
+  list-style: none;
+}
+.contact--list--container > li{
+  padding: 5px;
 }
