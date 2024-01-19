@@ -24,8 +24,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #d5f7ff;
-
+  background-image: linear-gradient(to bottom right, #f1f9fd, #b8c5e6);
 }
 
 h1 {
@@ -67,7 +66,7 @@ h1 {
   font-size: 20px;
   padding-top: 3px;
   font-style: italic;
-  color: gainsboro;
+  color: rgb(86, 83, 115);
 
 }
 .about--container, .main--container{
@@ -84,7 +83,7 @@ h1 {
   font-size: 24px;
   font-weight: 700;
   padding-left: 30px;
-  color: #ffffff;
+  color: #000000;
 
 }
 .about--title{
@@ -122,7 +121,7 @@ h1 {
   align-items: center;
 
   border: 1px solid rgba(130, 235, 188, 0.589);
-  background-color: #7affb6;
+  background-color: #e7f4ed;
   width: 32px;
   height: 32px;
   padding: 5px;
